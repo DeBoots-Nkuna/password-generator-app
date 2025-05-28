@@ -1,0 +1,88 @@
+/* body  */
+
+body {
+  font-family: 'Karla', sans-serif;
+  background-color: #1c1c1c;
+}
+
+/* title elements */
+.title {
+  color: #4adf86;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+/* span element */
+
+#title-sub {
+  color: white;
+}
+
+/* p element */
+p {
+  color: lightgray;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+/* home container */
+
+.home-container {
+  margin: 0 auto;
+  width: 500px;
+  height: 400px;
+  background-color: #1f2937;
+  padding: 6rem 4rem;
+}
+
+/* ruler element */
+hr {
+  border: none;
+  height: 1px;
+  background-color: #2f3e53;
+  margin: 2rem 0;
+}
+
+/* password container */
+
+.pass-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* generator button */
+.generate-btn {
+  border: none;
+  background-color: #10b981;
+  font-family: inherit;
+  color: white;
+  padding: 0.5rem 0.6rem;
+  font-size: 1.1rem;
+  font-weight: 300;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* password div */
+
+.password {
+  background-color: #273549;
+  text-align: center;
+  width: 200px;
+  height: 20px;
+  padding: 0.6rem 0.5rem;
+  border-radius: 4px;
+  color: #55f991;
+}
+
+.password:hover {
+  cursor: pointer;
+}
+
+#info {
+  margin-top: 2rem;
+  font-size: 0.6rem;
+  text-align: center;
+  font-weight: 300;
+  font-style: italic;
+}
